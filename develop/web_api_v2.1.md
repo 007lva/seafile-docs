@@ -273,7 +273,7 @@
     </li>
 
     <li>
-        <a href="#admin-only-shares">Log</a>
+        <a href="#admin-only-shares">Shares</a>
         <ul>
             <li><a href="#admin-only-get-repo-user-shares">Get Repo User Shares</a></li>
             <li><a href="#admin-only-get-repo-group-shares">Get Repo Group Shares</a></li>
@@ -3419,6 +3419,8 @@ Get first page (50 records per page) of mobile devices.
 
 ### <a id="admin-only-get-device-errors"></a>Get Device Errors
 
+This api only supported in pro edition.
+
 **GET** https://cloud.seafile.com/api/v2.1/admin/device-errors/
 
 **Sample request**
@@ -3447,9 +3449,9 @@ Get first page (50 records per page) of mobile devices.
 * 403 Feature disabled.
 * 500 Internal Server Error
 
-**NOTE** This api only supported in pro edition.
-
 ### <a id="admin-only-clean-device-errors"></a>Clean Device Errors
+
+This api only supported in pro edition.
 
 **DELETE** https://cloud.seafile.com/api/v2.1/admin/device-errors/
 
@@ -3467,8 +3469,6 @@ Get first page (50 records per page) of mobile devices.
 
 * 403 Feature disabled.
 * 500 Internal Server Error
-
-**NOTE** This api only supported in pro edition.
 
 ## <a id="admin-only-libraries"></a>Libraries
 
@@ -3755,6 +3755,8 @@ Available for Seafile v6.0.0+
 
 ### <a id="admin-only-get-login-log"></a>Get Login Log
 
+This api only supported in pro edition.
+
 **GET** https://cloud.seafile.com/api/v2.1/admin/logs/login/?start=2016-03-20&end=2016-03-31
 
 **Sample request**
@@ -3785,9 +3787,9 @@ Available for Seafile v6.0.0+
 * 400 start or end date invalid.
 * 403 Feature disabled.
 
-**NOTE** This api only supported in pro edition.
-
 ### <a id="admin-only-get-file-audit-log"></a>Get File Audit Log
+
+This api only supported in pro edition.
 
 **GET** https://cloud.seafile.com/api/v2.1/admin/logs/file-audit/?start=2016-03-20&end=2016-03-31
 
@@ -3827,9 +3829,9 @@ Available for Seafile v6.0.0+
 * 400 start or end date invalid.
 * 403 Feature disabled.
 
-**NOTE** This api only supported in pro edition.
-
 ### <a id="admin-only-get-file-update-log"></a>Get File Update Log
+
+This api only supported in pro edition.
 
 **GET** https://cloud.seafile.com/api/v2.1/admin/logs/file-update/?start=2016-03-20&end=2016-03-31
 
@@ -3867,9 +3869,9 @@ Available for Seafile v6.0.0+
 * 400 start or end date invalid.
 * 403 Feature disabled.
 
-**NOTE** This api only supported in pro edition.
-
 ### <a id="admin-only-get-perm-audit-log"></a>Get Permission Audit Log
+
+This api only supported in pro edition.
 
 **GET** https://cloud.seafile.com/api/v2.1/admin/logs/perm-audit/?start=2016-03-20&end=2016-03-31
 
@@ -3911,9 +3913,7 @@ Available for Seafile v6.0.0+
 * 400 start or end date invalid.
 * 403 Feature disabled.
 
-**NOTE** This api only supported in pro edition.
-
-## <a id="admin-only-shares"></a>Admin Shares
+## <a id="admin-only-shares"></a>Shares
 
 ### <a id="admin-only-get-repo-user-shares"></a>Get Repo User Shares
 
